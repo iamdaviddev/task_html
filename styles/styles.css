@@ -21,7 +21,7 @@ header {
 header a{
   font-size: 24px;
   font-weight: bold;
-  color: #f7c7df;
+  color: #4B2995;
 }
 
 .header{
@@ -33,23 +33,29 @@ header a{
   align-items: center;
   justify-content: center;
   gap: 10px;
-  color: #f7c7df;
+  color: #272221;
 }
 
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1120px;
-  margin: 0 auto;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .hero{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 100px;
 }
 
-.hero .content{
-  width: 200px;
+.content h1{
+  color: #272221;
+}
+
+.content p{
+  margin-top: 20px;
+  color: #574F4D;
 }
